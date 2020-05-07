@@ -1,0 +1,163 @@
+
+
+
+.header{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-width: 100px;
+    justify-content: space-around;
+    color: white;
+    background-color: blue;
+}
+.fb{
+    padding-top: 10px;
+    justify-content: space-between ;
+    background-color: blue;
+}
+.button{
+    padding-top: 19px;
+    background-color: blue;
+}
+.donation{
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: blue;
+}
+.home{
+  border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min-width: 100px;
+    justify-content: space-around;
+    justify-content: space-between;
+    
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    margin-top: 10px;
+
+}
+.image{
+    width: 100%;
+}
+li:hover{
+    cursor: pointer;
+    background-color: blue;
+    border: blue solid ;
+    border-radius: 30px;
+    color: white;
+    padding: 5px;
+    
+}
+.de{
+    width:70px ;
+    padding-left: 5px;
+    background-color: blue;
+    color:white ;
+    text-decoration: none;
+    border: blue solid 5px;
+    border-radius: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.picture{
+    margin-top: 0px;
+   
+}
+.bar{
+    color: blue;
+}
+span{
+    color: green;
+}
+.prag{
+    text-align: justify;
+  padding-left: 50px;
+  padding-right: 50px; 
+  line-height: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    padding-top: 30px;
+    color: white;
+    font-size: 50px;
+   
+}
+.imran{
+    min-width: 100px;
+    max-width: 100%;
+}
+.MONTHLY{
+    font-size: medium;
+}
+.DOING{
+    width: 90%;
+    border-spacing:20PX 25PX ;
+     border: 1PX solid white;
+    text-align: center;
+    justify-content: space-between;
+  width: 100%;
+
+}
+td{
+    background-color: whitesmoke;
+    -moz-box-shadow: 5px 5px 5px 5px #777777; 
+      -webkit-box-shadow: 5px 5px 5px 5px #777777;
+        box-shadow: 5px 5px 5px 5px #777777;
+        height: 10PX;
+        padding: 40PX;
+        min-width: 10px;
+}
+h1,.PROJECTS{
+    color:navy;
+    margin-left: 20px;
+   width: 70%;
+   
+}
+.MISSION{
+    width:100%;
+    border-spacing:17PX 15PX ;
+}
+.EVENTS{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.UPCOMING{
+  margin-right: 70PX;
+  margin-left: 20px;
+}
+.GALLY{
+    text-align: center;
+}
+.CONTECT{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    padding: 20PX;
+    width: 100%;
+}
+footer{
+    background-color: skyblue;
+    width: 100%;
+    padding: 20px ;
+    padding-left: 90px;
+}
